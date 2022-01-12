@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Militarist.az</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+    <section id="header">
+        <a href="index.html"><img src="pix/logo1main.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Ana Sehife</a></li>
+                <li><a class="active" href="news.html">Meqaleler</a></li>
+                <li><a href="allitems.html">Buetun melumatlar</a></li>
+                <li><a href="about.html">Haqqymyzda</a></li>
+                <a href="#" id="close"> <i class="fas  fa-times"></i> <span>bahgla</span></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+
+    </section>
+
+    <section id="filterer" class="closed section-p1">
+        <h2>Meqaleler</h2>
+        <form>
+            <div class="form-inner">
+                <label for="string">Axtaryws soezu:</label>
+                <input type="text" id="lname" name="lastname" placeholder="soez">
+            </div>
+
+            <div class="form-inner">
+                <label for="country">Syrala:</label>
+                <select id="sortBY" name="sortBY">
+                    <option value="new">En jeni</option>
+                    <option value="popular">En chox oxunan</option>
+                </select>
+            </div>
+
+            <div class="form-inner">
+                <label for="country">Teeqler:</label>
+                <select id="country" name="country">
+                    <option value="ussr">#tank</option>
+                    <option value="canada">#nato</option>
+                    <option value="usa">#Azerbajcan</option>
+                </select>
+            </div>
+
+            <br>
+            <div class="czech-div">
+                <label class="czech">Silah
+                    <input type="checkbox" checked="checked">
+                </label>
+
+                <label class="czech">Texnika
+                    <input type="checkbox">
+                </label>
+
+                <label class="czech">Insani
+                    <input type="checkbox">
+                </label>
+            </div>
+
+            <br>
+            <button class="normal">Axtar</button>
+        </form>
+
+    </section>
+
+
+
+    <section id="newsPage" class="section-p1">
+        <div class="first w-100">
+            <h2>Meqaleler </h2>
+            <button id="showNewsSearch" class="normal">axtaryws paneli goester</button>
+        </div>
+
+        <div class="newsLeft w-70">
+            <div class="main-news">
+                <div class="imgHolder ws-40">
+                    <img src="pix/news/newspic1.jpg" alt="">
+                </div>
+                <div class="ws-60">
+                    <h4>Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic impedit temporibus dolores
+                        voluptatem
+                        placeat? Libero enim quidem fugiat quas nostrum sunt consequatur laboriosam? <a href="#"
+                            class="readmore">Ardyny oxu...</a></p>
+                    <span class="tag">#tank</span>
+                </div>
+            </div>
+
+            <div class="main-news">
+                <div class="imgHolder ws-40">
+                    <img src="pix/news/newspic2.jpg" alt="">
+                </div>
+                <div class="ws-60">
+                    <h4>Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic impedit temporibus dolores
+                        voluptatem
+                        placeat? Libero enim quidem fugiat quas nostrum sunt consequatur laboriosam? <a href="#"
+                            class="readmore">Ardyny oxu...</a></p>
+                    <span class="tag">#rusija</span>
+                </div>
+            </div>
+
+            <div class="main-news">
+                <div class="imgHolder ws-40">
+                    <img src="pix/news/newspic3.jpg" alt="">
+                </div>
+                <div class="ws-60">
+                    <h4>Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic impedit temporibus dolores
+                        voluptatem
+                        placeat? Libero enim quidem fugiat quas nostrum sunt consequatur laboriosam? <a href="#"
+                            class="readmore">Ardyny oxu...</a></p>
+                    <span class="tag">#NATO</span>
+                </div>
+            </div>
+
+            <div id="Pagin">
+                <a href="#" class="active">1</a>
+                <a href="#" class="">2</a>
+                <a href="#" class="">3</a>
+                <a href="#" class="">»</a>
+            </div>
+        </div>
+
+        <div class="newsRight w-30">
+            <div class="allNews">
+                <h4>En son meqaleler</h4>
+                <ul>
+                    <li>
+                        <a  href="singleArticle.html" class="dflex">
+                            <img class="ws-40" src="pix/news/newspic1.jpg" alt="">
+                            <p class="ws-60">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor officiis cum magni iure.
+                            </p>
+                        </a>
+                        <hr>
+                    </li>
+
+                    <li>
+                        <a  href="singleArticle.html" class="dflex">
+                            <img class="ws-40" src="pix/news/newspic1.jpg" alt="">
+                            <p class="ws-60">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor officiis cum magni iure.
+                            </p>
+                        </a>
+                        <hr>
+                    </li>
+
+                    <li>
+                        <a  href="singleArticle.html" class="dflex">
+                            <img class="ws-40" src="pix/news/newspic1.jpg" alt="">
+                            <p class="ws-60">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor officiis cum magni iure.
+                            </p>
+                        </a>
+                        <hr>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+    <section id="banner3">
+        <a href="#" class="banner-box">
+            <h2>Denizde Herb</h2>
+        </a>
+        <a href="#" class="banner-box banner-box2">
+            <h2>Insan Amili</h2>
+        </a>
+        <a href="#" class="banner-box banner-box3">
+            <h2>Hava Hakimleri</h2>
+        </a>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-p1">
+        <div class="newstext">
+            <h4>Qejdijatdan kewcin</h4>
+            <p>Jeni jazylardan anynda xeberdar olun</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="E-powct uenvanynyz">
+            <button class="normal">Qejd ol</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="pix/logo1main.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Elaqe uewcun:</strong> ordu@militarist.az</p>
+
+            <div class="follow">
+                <h4>Bizi sosial shebekelerde izlejin</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Haqqymyzda</h4>
+            <a href="#">Lajihe meqsedi</a>
+            <a href="#">Reklam uewcun</a>
+
+        </div>
+
+        <div class="col">
+            <h4>Boelmeler</h4>
+            <a href="#">Son hadiseler</a>
+            <a href="#">Silahlar & texnikalar</a>
+            <a href="#">Herb tarixi</a>
+
+        </div>
+
+
+        <div class="copyright">
+            <p>FiBWEB MMC mehsuludur</p>
+        </div>
+    </footer>
+
+ 
+    <script src="script.js"></script>
+</body>
+
+</html>
